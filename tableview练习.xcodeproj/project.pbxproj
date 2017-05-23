@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46EE57078F0EAE982DA39941 /* libPods-tableview练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497D32E770A9409FA816A14F /* libPods-tableview练习.a */; };
 		FE1E4EDC1EC0498200F43DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4EDB1EC0498200F43DFF /* main.m */; };
 		FE1E4EDF1EC0498200F43DFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4EDE1EC0498200F43DFF /* AppDelegate.m */; };
 		FE1E4EE21EC0498200F43DFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4EE11EC0498200F43DFF /* ViewController.m */; };
@@ -15,6 +16,20 @@
 		FE1E4EEA1EC0498200F43DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E4EE81EC0498200F43DFF /* LaunchScreen.storyboard */; };
 		FE1E4EF51EC0498200F43DFF /* tableview__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4EF41EC0498200F43DFF /* tableview__Tests.m */; };
 		FE1E4F001EC0498200F43DFF /* tableview__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4EFF1EC0498200F43DFF /* tableview__UITests.m */; };
+		FE1E4F0F1EC04AAC00F43DFF /* yyHero.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4F0E1EC04AAC00F43DFF /* yyHero.m */; };
+		FE1E4F111EC04BC400F43DFF /* heroes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1E4F101EC04BC400F43DFF /* heroes.plist */; };
+		FE1E4F141EC0611C00F43DFF /* yyHeroView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1E4F131EC0611C00F43DFF /* yyHeroView.m */; };
+		FE1E4F161EC0615000F43DFF /* yyHeroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1E4F151EC0615000F43DFF /* yyHeroView.xib */; };
+		FE2506331EC3FE5700922510 /* yyHeroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2506321EC3FE5700922510 /* yyHeroCell.m */; };
+		FE2506361EC3FE7500922510 /* yyHeroFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2506351EC3FE7500922510 /* yyHeroFrame.m */; };
+		FE68590C1EC9360300C56527 /* yyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE68590B1EC9360200C56527 /* yyHeaderView.m */; };
+		FEF298C91ECADC770094DEE5 /* yyHeaderViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF298C81ECADC770094DEE5 /* yyHeaderViewFrame.m */; };
+		FEF298CE1ECBD9210094DEE5 /* yyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF298CC1ECBD9210094DEE5 /* yyTableViewCell.m */; };
+		FEF298CF1ECBD9210094DEE5 /* yyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF298CD1ECBD9210094DEE5 /* yyTableViewCell.xib */; };
+		FEF298D21ECBDDA20094DEE5 /* yyShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF298D11ECBDDA20094DEE5 /* yyShareView.m */; };
+		FEF298D51ECBDDD10094DEE5 /* yyShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF298D41ECBDDD10094DEE5 /* yyShareView.xib */; };
+		FEF298DE1ECC241C0094DEE5 /* yysegment.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF298DD1ECC241C0094DEE5 /* yysegment.m */; };
+		FEF298E01ECC242D0094DEE5 /* yysegment.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF298DF1ECC242D0094DEE5 /* yysegment.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		497D32E770A9409FA816A14F /* libPods-tableview练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tableview练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC6C2052E422EC1D061A12F /* Pods-tableview练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableview练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tableview练习/Pods-tableview练习.debug.xcconfig"; sourceTree = "<group>"; };
+		F348725829D03843DBD5A035 /* Pods-tableview练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableview练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-tableview练习/Pods-tableview练习.release.xcconfig"; sourceTree = "<group>"; };
 		FE1E4ED71EC0498200F43DFF /* tableview练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableview练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E4EDB1EC0498200F43DFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE1E4EDD1EC0498200F43DFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,29 @@
 		FE1E4EFB1EC0498200F43DFF /* tableview练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableview练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E4EFF1EC0498200F43DFF /* tableview__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableview__UITests.m; sourceTree = "<group>"; };
 		FE1E4F011EC0498200F43DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E4F0D1EC04AAC00F43DFF /* yyHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyHero.h; sourceTree = "<group>"; };
+		FE1E4F0E1EC04AAC00F43DFF /* yyHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyHero.m; sourceTree = "<group>"; };
+		FE1E4F101EC04BC400F43DFF /* heroes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heroes.plist; sourceTree = "<group>"; };
+		FE1E4F121EC0611C00F43DFF /* yyHeroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyHeroView.h; sourceTree = "<group>"; };
+		FE1E4F131EC0611C00F43DFF /* yyHeroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyHeroView.m; sourceTree = "<group>"; };
+		FE1E4F151EC0615000F43DFF /* yyHeroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = yyHeroView.xib; sourceTree = "<group>"; };
+		FE2506311EC3FE5700922510 /* yyHeroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyHeroCell.h; sourceTree = "<group>"; };
+		FE2506321EC3FE5700922510 /* yyHeroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyHeroCell.m; sourceTree = "<group>"; };
+		FE2506341EC3FE7500922510 /* yyHeroFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyHeroFrame.h; sourceTree = "<group>"; };
+		FE2506351EC3FE7500922510 /* yyHeroFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyHeroFrame.m; sourceTree = "<group>"; };
+		FE68590A1EC9360200C56527 /* yyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyHeaderView.h; sourceTree = "<group>"; };
+		FE68590B1EC9360200C56527 /* yyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyHeaderView.m; sourceTree = "<group>"; };
+		FEF298C71ECADC770094DEE5 /* yyHeaderViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyHeaderViewFrame.h; sourceTree = "<group>"; };
+		FEF298C81ECADC770094DEE5 /* yyHeaderViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyHeaderViewFrame.m; sourceTree = "<group>"; };
+		FEF298CB1ECBD9210094DEE5 /* yyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyTableViewCell.h; sourceTree = "<group>"; };
+		FEF298CC1ECBD9210094DEE5 /* yyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyTableViewCell.m; sourceTree = "<group>"; };
+		FEF298CD1ECBD9210094DEE5 /* yyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = yyTableViewCell.xib; sourceTree = "<group>"; };
+		FEF298D01ECBDDA20094DEE5 /* yyShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyShareView.h; sourceTree = "<group>"; };
+		FEF298D11ECBDDA20094DEE5 /* yyShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyShareView.m; sourceTree = "<group>"; };
+		FEF298D41ECBDDD10094DEE5 /* yyShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = yyShareView.xib; sourceTree = "<group>"; };
+		FEF298DC1ECC241C0094DEE5 /* yysegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yysegment.h; sourceTree = "<group>"; };
+		FEF298DD1ECC241C0094DEE5 /* yysegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yysegment.m; sourceTree = "<group>"; };
+		FEF298DF1ECC242D0094DEE5 /* yysegment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = yysegment.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EE57078F0EAE982DA39941 /* libPods-tableview练习.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +120,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3302E2BDF9033BA238C7B580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497D32E770A9409FA816A14F /* libPods-tableview练习.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B783BB16973D2239B151CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6C2052E422EC1D061A12F /* Pods-tableview练习.debug.xcconfig */,
+				F348725829D03843DBD5A035 /* Pods-tableview练习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FE1E4ECE1EC0498200F43DFF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +144,8 @@
 				FE1E4EF31EC0498200F43DFF /* tableview练习Tests */,
 				FE1E4EFE1EC0498200F43DFF /* tableview练习UITests */,
 				FE1E4ED81EC0498200F43DFF /* Products */,
+				D6B783BB16973D2239B151CF /* Pods */,
+				3302E2BDF9033BA238C7B580 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +162,18 @@
 		FE1E4ED91EC0498200F43DFF /* tableview练习 */ = {
 			isa = PBXGroup;
 			children = (
+				FEF298D61ECC200D0094DEE5 /* segment */,
+				FEF298D31ECBDDA80094DEE5 /* shareView */,
+				FEF298CA1ECBD7F60094DEE5 /* operCell */,
+				FE7B3BE11EC935BE00109158 /* 自定义headerView */,
+				FE25062B1EC3F09400922510 /* 自定义tableViewCell */,
+				FE3EA41A1EC2A3C300C4837A /* heroView */,
 				FE1E4EDD1EC0498200F43DFF /* AppDelegate.h */,
 				FE1E4EDE1EC0498200F43DFF /* AppDelegate.m */,
 				FE1E4EE01EC0498200F43DFF /* ViewController.h */,
 				FE1E4EE11EC0498200F43DFF /* ViewController.m */,
+				FE1E4EDB1EC0498200F43DFF /* main.m */,
+				FE1E4F101EC04BC400F43DFF /* heroes.plist */,
 				FE1E4EE31EC0498200F43DFF /* Main.storyboard */,
 				FE1E4EE61EC0498200F43DFF /* Assets.xcassets */,
 				FE1E4EE81EC0498200F43DFF /* LaunchScreen.storyboard */,
@@ -117,7 +186,6 @@
 		FE1E4EDA1EC0498200F43DFF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FE1E4EDB1EC0498200F43DFF /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +208,70 @@
 			path = "tableview练习UITests";
 			sourceTree = "<group>";
 		};
+		FE25062B1EC3F09400922510 /* 自定义tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E4F0D1EC04AAC00F43DFF /* yyHero.h */,
+				FE1E4F0E1EC04AAC00F43DFF /* yyHero.m */,
+				FE2506341EC3FE7500922510 /* yyHeroFrame.h */,
+				FE2506351EC3FE7500922510 /* yyHeroFrame.m */,
+				FE2506311EC3FE5700922510 /* yyHeroCell.h */,
+				FE2506321EC3FE5700922510 /* yyHeroCell.m */,
+			);
+			name = "自定义tableViewCell";
+			sourceTree = "<group>";
+		};
+		FE3EA41A1EC2A3C300C4837A /* heroView */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E4F121EC0611C00F43DFF /* yyHeroView.h */,
+				FE1E4F131EC0611C00F43DFF /* yyHeroView.m */,
+				FE1E4F151EC0615000F43DFF /* yyHeroView.xib */,
+			);
+			name = heroView;
+			sourceTree = "<group>";
+		};
+		FE7B3BE11EC935BE00109158 /* 自定义headerView */ = {
+			isa = PBXGroup;
+			children = (
+				FE68590A1EC9360200C56527 /* yyHeaderView.h */,
+				FE68590B1EC9360200C56527 /* yyHeaderView.m */,
+				FEF298C71ECADC770094DEE5 /* yyHeaderViewFrame.h */,
+				FEF298C81ECADC770094DEE5 /* yyHeaderViewFrame.m */,
+			);
+			name = "自定义headerView";
+			sourceTree = "<group>";
+		};
+		FEF298CA1ECBD7F60094DEE5 /* operCell */ = {
+			isa = PBXGroup;
+			children = (
+				FEF298CB1ECBD9210094DEE5 /* yyTableViewCell.h */,
+				FEF298CC1ECBD9210094DEE5 /* yyTableViewCell.m */,
+				FEF298CD1ECBD9210094DEE5 /* yyTableViewCell.xib */,
+			);
+			name = operCell;
+			sourceTree = "<group>";
+		};
+		FEF298D31ECBDDA80094DEE5 /* shareView */ = {
+			isa = PBXGroup;
+			children = (
+				FEF298D01ECBDDA20094DEE5 /* yyShareView.h */,
+				FEF298D11ECBDDA20094DEE5 /* yyShareView.m */,
+				FEF298D41ECBDDD10094DEE5 /* yyShareView.xib */,
+			);
+			name = shareView;
+			sourceTree = "<group>";
+		};
+		FEF298D61ECC200D0094DEE5 /* segment */ = {
+			isa = PBXGroup;
+			children = (
+				FEF298DC1ECC241C0094DEE5 /* yysegment.h */,
+				FEF298DD1ECC241C0094DEE5 /* yysegment.m */,
+				FEF298DF1ECC242D0094DEE5 /* yysegment.xib */,
+			);
+			name = segment;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE1E4F041EC0498200F43DFF /* Build configuration list for PBXNativeTarget "tableview练习" */;
 			buildPhases = (
+				F6E08E64E65E948DDDAA2175 /* [CP] Check Pods Manifest.lock */,
 				FE1E4ED31EC0498200F43DFF /* Sources */,
 				FE1E4ED41EC0498200F43DFF /* Frameworks */,
 				FE1E4ED51EC0498200F43DFF /* Resources */,
+				E25FABADB5E13DE29F4561B1 /* [CP] Embed Pods Frameworks */,
+				5974E1342957D4B49886450C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +337,7 @@
 		FE1E4ECF1EC0498200F43DFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = yy;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "俞益";
 				TargetAttributes = {
@@ -249,6 +385,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1E4F111EC04BC400F43DFF /* heroes.plist in Resources */,
+				FEF298CF1ECBD9210094DEE5 /* yyTableViewCell.xib in Resources */,
+				FEF298D51ECBDDD10094DEE5 /* yyShareView.xib in Resources */,
+				FEF298E01ECC242D0094DEE5 /* yysegment.xib in Resources */,
+				FE1E4F161EC0615000F43DFF /* yyHeroView.xib in Resources */,
 				FE1E4EEA1EC0498200F43DFF /* LaunchScreen.storyboard in Resources */,
 				FE1E4EE71EC0498200F43DFF /* Assets.xcassets in Resources */,
 				FE1E4EE51EC0498200F43DFF /* Main.storyboard in Resources */,
@@ -271,14 +412,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5974E1342957D4B49886450C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableview练习/Pods-tableview练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25FABADB5E13DE29F4561B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableview练习/Pods-tableview练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E08E64E65E948DDDAA2175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE1E4ED31EC0498200F43DFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE68590C1EC9360300C56527 /* yyHeaderView.m in Sources */,
 				FE1E4EE21EC0498200F43DFF /* ViewController.m in Sources */,
+				FEF298D21ECBDDA20094DEE5 /* yyShareView.m in Sources */,
+				FE1E4F141EC0611C00F43DFF /* yyHeroView.m in Sources */,
 				FE1E4EDF1EC0498200F43DFF /* AppDelegate.m in Sources */,
+				FE2506361EC3FE7500922510 /* yyHeroFrame.m in Sources */,
+				FEF298C91ECADC770094DEE5 /* yyHeaderViewFrame.m in Sources */,
+				FEF298DE1ECC241C0094DEE5 /* yysegment.m in Sources */,
 				FE1E4EDC1EC0498200F43DFF /* main.m in Sources */,
+				FEF298CE1ECBD9210094DEE5 /* yyTableViewCell.m in Sources */,
+				FE1E4F0F1EC04AAC00F43DFF /* yyHero.m in Sources */,
+				FE2506331EC3FE5700922510 /* yyHeroCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +623,7 @@
 		};
 		FE1E4F051EC0498200F43DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC6C2052E422EC1D061A12F /* Pods-tableview练习.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GYUXN9USDZ;
@@ -437,6 +636,7 @@
 		};
 		FE1E4F061EC0498200F43DFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F348725829D03843DBD5A035 /* Pods-tableview练习.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GYUXN9USDZ;
@@ -516,6 +716,7 @@
 				FE1E4F061EC0498200F43DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1E4F071EC0498200F43DFF /* Build configuration list for PBXNativeTarget "tableview练习Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +725,7 @@
 				FE1E4F091EC0498200F43DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1E4F0A1EC0498200F43DFF /* Build configuration list for PBXNativeTarget "tableview练习UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +734,7 @@
 				FE1E4F0C1EC0498200F43DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
